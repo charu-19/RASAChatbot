@@ -1,0 +1,47 @@
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - askAboutYou
+  - developAChatbot
+  - ability
+  - study
+  - feel
+
+responses:
+  utter_expert:
+  - text: "I'm a Webdeveloper and AI Enthusiast"
+  utter_price:
+  - text: "I can help you to develop at an affordable cost for you!"
+  utter_greet:
+  - text: "Hey!I'm charu's chatbot"
+  utter_able:
+  - text: "I can,I do ,but I love to Talk and Chat!"
+  utter_affirm:
+  - text: "Fine.."
+  utter_study:
+  - text: "I am a chatbot with AI Knowledge"
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+  utter_feel:
+  - text: "Yes I love my developers and users"
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye..Let's talk some other day..Have a nice day."
+
+  utter_iamabot:
+  - text: "I am a bot,created by Charu,powered by Rasa."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
